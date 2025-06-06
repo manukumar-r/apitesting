@@ -15,3 +15,4 @@ def auth_token(base_url, credentials):
     response = requests.post(login_endpoint, json=credentials)
     assert response.status_code == 200
     return response.json().get("access_token")
+
