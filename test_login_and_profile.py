@@ -9,3 +9,4 @@ def test_fetch_user_profile(base_url, auth_token):
 
     assert "username" in data
     assert "email" in data
+
